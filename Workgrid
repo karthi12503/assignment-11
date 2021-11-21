@@ -1,0 +1,8 @@
+IP=str(input ("Enter Your Input : "))
+a=int(input("Enter Partition : "))
+length=(len(IP)//a)+1;
+inc=0;
+for i in range(0,length):
+    for j in range(0,a):
+        print(IP[inc]);
+        inc=inc+1;
